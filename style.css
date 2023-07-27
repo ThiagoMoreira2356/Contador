@@ -1,0 +1,53 @@
+* {
+    background-color: rgb(245, 255, 255);
+}
+
+
+/* Titulo e número do contador */
+
+.container {
+    align-items: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.titulo-main {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center ;
+    margin-left: 30px;
+    color: rgb(49, 48, 48);
+
+}
+
+#contagem-valor {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+}
+
+
+
+/* Botões */
+
+.btn {
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    width: 80px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
